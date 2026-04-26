@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-04-16T08:57:08",
+  "python": "3.10.0",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "hanlp_installed": true,
+  "hanlp_version": "2.1.1",
+  "model_loaded": true,
+  "tokenize_ok": true,
+  "sample_text": "今天天气很好，我们测试HanLP是否可用。",
+  "token_count": 11,
+  "tokens_preview": [
+    "今天",
+    "天气",
+    "很",
+    "好",
+    "，",
+    "我们",
+    "测试",
+    "HanLP",
+    "是否",
+    "可用",
+    "。"
+  ],
+  "error": null,
+  "traceback": null
+}

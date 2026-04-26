@@ -1,0 +1,359 @@
+{
+  "timestamp": "20260419_152337_401270",
+  "source_doc": "AIGC时代的学术出版伦理：风险挑战与治理路径_葛建平.pdf",
+  "section": "单文件演示",
+  "input_length": 28,
+  "raw_response": "{\"chunk_count\": 3, \"responses\": [{\"chunk_index\": 0, \"input_length\": 522}, {\"chunk_index\": 1, \"input_length\": 527}, {\"chunk_index\": 2, \"input_length\": 545}]}",
+  "accepted": [
+    {
+      "subject": "生成式人工智能技术",
+      "subject_type": "技术",
+      "relation": "应用于",
+      "object": "学术出版",
+      "object_type": "场景",
+      "evidence": {
+        "source_doc": "AIGC时代的学术出版伦理：风险挑战与治理路径_葛建平.pdf",
+        "source_span": "生成式人工智能技术的应用给学术出版",
+        "section": "单文件演示",
+        "confidence": 0.9,
+        "time_or_policy_version": "2026"
+      }
+    },
+    {
+      "subject": "生成式人工智能技术",
+      "subject_type": "技术",
+      "relation": "引发",
+      "object": "风险挑战",
+      "object_type": "风险",
+      "evidence": {
+        "source_doc": "AIGC时代的学术出版伦理：风险挑战与治理路径_葛建平.pdf",
+        "source_span": "带来一系列风险挑战",
+        "section": "单文件演示",
+        "confidence": 0.85,
+        "time_or_policy_version": "2026"
+      }
+    },
+    {
+      "subject": "本研究",
+      "subject_type": "主体",
+      "relation": "聚焦于",
+      "object": "人工智能学术出版伦理",
+      "object_type": "场景",
+      "evidence": {
+        "source_doc": "AIGC时代的学术出版伦理：风险挑战与治理路径_葛建平.pdf",
+        "source_span": "本研究对人工智能学术出版伦理进行分类和分析",
+        "section": "单文件演示",
+        "confidence": 0.8,
+        "time_or_policy_version": "2026"
+      }
+    },
+    {
+      "subject": "学术出版伦理治理",
+      "subject_type": "治理措施",
+      "relation": "包括",
+      "object": "法律路径",
+      "object_type": "治理措施",
+      "evidence": {
+        "source_doc": "AIGC时代的学术出版伦理：风险挑战与治理路径_葛建平.pdf",
+        "source_span": "应从法律路径、技术路径、伦理路径和协同治理四个方面加强AIGC时代的学术出版伦理治理",
+        "section": "单文件演示",
+        "confidence": 0.9,
+        "time_or_policy_version": "2026"
+      }
+    },
+    {
+      "subject": "学术出版伦理治理",
+      "subject_type": "治理措施",
+      "relation": "包括",
+      "object": "技术路径",
+      "object_type": "治理措施",
+      "evidence": {
+        "source_doc": "AIGC时代的学术出版伦理：风险挑战与治理路径_葛建平.pdf",
+        "source_span": "应从法律路径、技术路径、伦理路径和协同治理四个方面加强AIGC时代的学术出版伦理治理",
+        "section": "单文件演示",
+        "confidence": 0.9,
+        "time_or_policy_version": "2026"
+      }
+    },
+    {
+      "subject": "学术出版伦理治理",
+      "subject_type": "治理措施",
+      "relation": "包括",
+      "object": "伦理路径",
+      "object_type": "治理措施",
+      "evidence": {
+        "source_doc": "AIGC时代的学术出版伦理：风险挑战与治理路径_葛建平.pdf",
+        "source_span": "应从法律路径、技术路径、伦理路径和协同治理四个方面加强AIGC时代的学术出版伦理治理",
+        "section": "单文件演示",
+        "confidence": 0.9,
+        "time_or_policy_version": "2026"
+      }
+    },
+    {
+      "subject": "学术出版伦理治理",
+      "subject_type": "治理措施",
+      "relation": "包括",
+      "object": "协同治理",
+      "object_type": "治理措施",
+      "evidence": {
+        "source_doc": "AIGC时代的学术出版伦理：风险挑战与治理路径_葛建平.pdf",
+        "source_span": "应从法律路径、技术路径、伦理路径和协同治理四个方面加强AIGC时代的学术出版伦理治理",
+        "section": "单文件演示",
+        "confidence": 0.9,
+        "time_or_policy_version": "2026"
+      }
+    },
+    {
+      "subject": "伦理路径",
+      "subject_type": "治理措施",
+      "relation": "助力",
+      "object": "智能时代学术出版的高质量发展",
+      "object_type": "目标",
+      "evidence": {
+        "source_doc": "AIGC时代的学术出版伦理：风险挑战与治理路径_葛建平.pdf",
+        "source_span": "为智能时代学术出版的高质量发展提供参考",
+        "section": "单文件演示",
+        "confidence": 0.8,
+        "time_or_policy_version": "2026"
+      }
+    },
+    {
+      "subject": "智能出版技术",
+      "subject_type": "技术",
+      "relation": "引发",
+      "object": "出版主体身份焦虑",
+      "object_type": "风险",
+      "evidence": {
+        "source_doc": "AIGC时代的学术出版伦理：风险挑战与治理路径_葛建平.pdf",
+        "source_span": "智能出版技术的滥用引发出版主体身份焦虑、内容文化属性偏离、算法关系黑箱等伦理风险。",
+        "section": "单文件演示",
+        "confidence": 0.9,
+        "time_or_policy_version": "2026"
+      }
+    },
+    {
+      "subject": "智能出版技术",
+      "subject_type": "技术",
+      "relation": "引发",
+      "object": "内容文化属性偏离",
+      "object_type": "风险",
+      "evidence": {
+        "source_doc": "AIGC时代的学术出版伦理：风险挑战与治理路径_葛建平.pdf",
+        "source_span": "智能出版技术的滥用引发出版主体身份焦虑、内容文化属性偏离、算法关系黑箱等伦理风险。",
+        "section": "单文件演示",
+        "confidence": 0.9,
+        "time_or_policy_version": "2026"
+      }
+    },
+    {
+      "subject": "智能出版技术",
+      "subject_type": "技术",
+      "relation": "引发",
+      "object": "算法关系黑箱",
+      "object_type": "风险",
+      "evidence": {
+        "source_doc": "AIGC时代的学术出版伦理：风险挑战与治理路径_葛建平.pdf",
+        "source_span": "智能出版技术的滥用引发出版主体身份焦虑、内容文化属性偏离、算法关系黑箱等伦理风险。",
+        "section": "单文件演示",
+        "confidence": 0.9,
+        "time_or_policy_version": "2026"
+      }
+    },
+    {
+      "subject": "风险治理",
+      "subject_type": "治理措施",
+      "relation": "包括",
+      "object": "原则约束",
+      "object_type": "治理措施",
+      "evidence": {
+        "source_doc": "AIGC时代的学术出版伦理：风险挑战与治理路径_葛建平.pdf",
+        "source_span": "AIGC时代的学术出版伦理：风险挑战与治理路径风险治理，主要包括原则约束、义务规范、技术检测、法律规制与教育监督等。",
+        "section": "单文件演示",
+        "confidence": 0.95,
+        "time_or_policy_version": "2026"
+      }
+    },
+    {
+      "subject": "风险治理",
+      "subject_type": "治理措施",
+      "relation": "包括",
+      "object": "义务规范",
+      "object_type": "治理措施",
+      "evidence": {
+        "source_doc": "AIGC时代的学术出版伦理：风险挑战与治理路径_葛建平.pdf",
+        "source_span": "AIGC时代的学术出版伦理：风险挑战与治理路径风险治理，主要包括原则约束、义务规范、技术检测、法律规制与教育监督等。",
+        "section": "单文件演示",
+        "confidence": 0.95,
+        "time_or_policy_version": "2026"
+      }
+    },
+    {
+      "subject": "风险治理",
+      "subject_type": "治理措施",
+      "relation": "包括",
+      "object": "技术检测",
+      "object_type": "治理措施",
+      "evidence": {
+        "source_doc": "AIGC时代的学术出版伦理：风险挑战与治理路径_葛建平.pdf",
+        "source_span": "AIGC时代的学术出版伦理：风险挑战与治理路径风险治理，主要包括原则约束、义务规范、技术检测、法律规制与教育监督等。",
+        "section": "单文件演示",
+        "confidence": 0.95,
+        "time_or_policy_version": "2026"
+      }
+    },
+    {
+      "subject": "风险治理",
+      "subject_type": "治理措施",
+      "relation": "包括",
+      "object": "法律规制",
+      "object_type": "治理措施",
+      "evidence": {
+        "source_doc": "AIGC时代的学术出版伦理：风险挑战与治理路径_葛建平.pdf",
+        "source_span": "AIGC时代的学术出版伦理：风险挑战与治理路径风险治理，主要包括原则约束、义务规范、技术检测、法律规制与教育监督等。",
+        "section": "单文件演示",
+        "confidence": 0.95,
+        "time_or_policy_version": "2026"
+      }
+    },
+    {
+      "subject": "风险治理",
+      "subject_type": "治理措施",
+      "relation": "包括",
+      "object": "教育监督",
+      "object_type": "治理措施",
+      "evidence": {
+        "source_doc": "AIGC时代的学术出版伦理：风险挑战与治理路径_葛建平.pdf",
+        "source_span": "AIGC时代的学术出版伦理：风险挑战与治理路径风险治理，主要包括原则约束、义务规范、技术检测、法律规制与教育监督等。",
+        "section": "单文件演示",
+        "confidence": 0.95,
+        "time_or_policy_version": "2026"
+      }
+    },
+    {
+      "subject": "部分学者",
+      "subject_type": "主体",
+      "relation": "聚焦于",
+      "object": "AIGC辅助学术创作中的版权归属、虚假信息生成等问题",
+      "object_type": "场景",
+      "evidence": {
+        "source_doc": "AIGC时代的学术出版伦理：风险挑战与治理路径_葛建平.pdf",
+        "source_span": "部分学者重点关注AIGC辅助学术创作中的版权归属、虚假信息生成等问题，或聚焦于同行评议、编辑加工、学术成果发布与传播等出版环节的相关问题。",
+        "section": "单文件演示",
+        "confidence": 0.8,
+        "time_or_policy_version": "2026"
+      }
+    },
+    {
+      "subject": "部分学者",
+      "subject_type": "主体",
+      "relation": "聚焦于",
+      "object": "同行评议、编辑加工、学术成果发布与传播等出版环节的相关问题",
+      "object_type": "场景",
+      "evidence": {
+        "source_doc": "AIGC时代的学术出版伦理：风险挑战与治理路径_葛建平.pdf",
+        "source_span": "部分学者重点关注AIGC辅助学术创作中的版权归属、虚假信息生成等问题，或聚焦于同行评议、编辑加工、学术成果发布与传播等出版环节的相关问题。",
+        "section": "单文件演示",
+        "confidence": 0.8,
+        "time_or_policy_version": "2026"
+      }
+    },
+    {
+      "subject": "部分学者",
+      "subject_type": "主体",
+      "relation": "聚焦于",
+      "object": "AIGC辅助学术创作中的版权归属、虚假信息生成等问题",
+      "object_type": "场景",
+      "evidence": {
+        "source_doc": "AIGC时代的学术出版伦理：风险挑战与治理路径_葛建平.pdf",
+        "source_span": "部分学者重点关注AIGC辅助学术创作中的版权归属、虚假信息生成等问题",
+        "section": "单文件演示",
+        "confidence": 0.95,
+        "time_or_policy_version": "2026"
+      }
+    },
+    {
+      "subject": "部分学者",
+      "subject_type": "主体",
+      "relation": "聚焦于",
+      "object": "同行评议、编辑加工、学术成果发布与传播等出版环节的相关问题",
+      "object_type": "场景",
+      "evidence": {
+        "source_doc": "AIGC时代的学术出版伦理：风险挑战与治理路径_葛建平.pdf",
+        "source_span": "或聚焦于同行评议、编辑加工、学术成果发布与传播等出版环节的相关问题",
+        "section": "单文件演示",
+        "confidence": 0.95,
+        "time_or_policy_version": "2026"
+      }
+    },
+    {
+      "subject": "风险治理",
+      "subject_type": "治理措施",
+      "relation": "包括",
+      "object": "原则约束、义务规范、技术检测、法律规制与教育监督等",
+      "object_type": "治理措施",
+      "evidence": {
+        "source_doc": "AIGC时代的学术出版伦理：风险挑战与治理路径_葛建平.pdf",
+        "source_span": "风险治理，主要包括原则约束、义务规范、技术检测、法律规制与教育监督等",
+        "section": "单文件演示",
+        "confidence": 0.9,
+        "time_or_policy_version": "2026"
+      }
+    },
+    {
+      "subject": "人工智能技术",
+      "subject_type": "技术",
+      "relation": "应用于",
+      "object": "学术出版实践",
+      "object_type": "场景",
+      "evidence": {
+        "source_doc": "AIGC时代的学术出版伦理：风险挑战与治理路径_葛建平.pdf",
+        "source_span": "人工智能技术应用于学术出版实践",
+        "section": "单文件演示",
+        "confidence": 0.9,
+        "time_or_policy_version": "2026"
+      }
+    },
+    {
+      "subject": "AIGC",
+      "subject_type": "技术",
+      "relation": "应用于",
+      "object": "学术出版",
+      "object_type": "场景",
+      "evidence": {
+        "source_doc": "AIGC时代的学术出版伦理：风险挑战与治理路径_葛建平.pdf",
+        "source_span": "AIGC运用于学术出版",
+        "section": "单文件演示",
+        "confidence": 0.9,
+        "time_or_policy_version": "2026"
+      }
+    },
+    {
+      "subject": "AIGC",
+      "subject_type": "技术",
+      "relation": "影响",
+      "object": "学术生态",
+      "object_type": "场景",
+      "evidence": {
+        "source_doc": "AIGC时代的学术出版伦理：风险挑战与治理路径_葛建平.pdf",
+        "source_span": "对学术生态的影响",
+        "section": "单文件演示",
+        "confidence": 0.85,
+        "time_or_policy_version": "2026"
+      }
+    },
+    {
+      "subject": "《中共中央关于制定国民经济和社会发展第十五个五年规划的建议》",
+      "subject_type": "政策文件",
+      "relation": "提出",
+      "object": "营造良好文化生态，提升文化原创能力，推动新闻出版、广播影视、文学艺术等领域精品创作",
+      "object_type": "目标",
+      "evidence": {
+        "source_doc": "AIGC时代的学术出版伦理：风险挑战与治理路径_葛建平.pdf",
+        "source_span": "《中共中央关于制定国民经济和社会发展第十五个五年规划的建议》中提出，“营造良好文化生态，提升文化原创能力，推动新闻出版、广播影视、文学艺术等领域精品创作”",
+        "section": "单文件演示",
+        "confidence": 0.95,
+        "time_or_policy_version": "第十五个五年规划"
+      }
+    }
+  ]
+}

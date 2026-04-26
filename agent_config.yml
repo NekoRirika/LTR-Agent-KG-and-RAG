@@ -1,0 +1,47 @@
+# Agent 智能体配置
+# 独立于 extractor/ingestor 的 LLM 配置，用于查询路由与答案生成
+
+llm:
+  api_key: sk-1cfe22fc8ba34e2f9747910a8b01e24f                          # 留空则从 .env 读取 AGENT_LLM_API_KEY
+  model: "qwen3-max"
+  temperature: 0
+
+neo4j:
+  uri: "bolt://localhost:7687"
+  username: "neo4j"
+  password: "12345678"           # 留空则从 .env 读取 AGENT_NEO4J_PASSWORD
+  database: "neo4j"
+
+router:
+  # 路由置信度阈值：低于此值回退为 hybrid
+  min_confidence: 0.7
+  # 路由策略定义
+  strategies:
+    - name: "global_search"
+      description: "全局图谱遍历，适合概览型问题（如'有哪些风险'、'所有技术'）"
+    - name: "local_search"
+      description: "实体中心邻域查询，适合围绕特定实体的关系问题（如'AIGC应用于哪些场景'）"
+    - name: "hybrid"
+      description: "全局+局部并行，适合复杂问题或路由不确定时回退"
+
+search:
+  global:
+    min_confidence: 0.75       # 全局搜索最低三元组置信度
+    limit: 200                 # 最大返回三元组数
+  local:
+    min_confidence: 0.75       # 局部搜索最低三元组置信度
+    max_hops: 2                # 最大跳数
+    neighbor_limit: 50         # 单实体最大邻居数
+    two_hop_confidence: 0.8    # 2跳路径最低置信度
+
+answer:
+  # 答案置信度低于此值时返回澄清问题
+  low_confidence_threshold: 0.4
+  # 最大证据条目数（控制 token 消耗）
+  max_evidence_items: 30
+
+vector_search:
+  enabled: true             # 改为 true 以启用向量检索
+  k: 6
+  search_type: "similarity"    # 或 mmr
+  score_threshold:             # 留空则不过滤，填 0.0-1.0 启用阈值过滤
